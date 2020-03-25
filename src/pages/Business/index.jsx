@@ -81,23 +81,25 @@ export default class Home extends React.Component {
         isMobile={this.state.isMobile}
       />,
       <Feature1
+          id="Feature1_1"
+          key="Feature1_1"
+          dataSource={Feature11DataSource}
+          isMobile={this.state.isMobile}
+      />,
+      <Feature2
+          id="Feature2_0"
+          key="Feature2_0"
+          dataSource={Feature20DataSource}
+          isMobile={this.state.isMobile}
+      />,
+      <Feature1
         id="Feature1_0"
         key="Feature1_0"
         dataSource={Feature10DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Feature2
-        id="Feature2_0"
-        key="Feature2_0"
-        dataSource={Feature20DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Feature1
-        id="Feature1_1"
-        key="Feature1_1"
-        dataSource={Feature11DataSource}
-        isMobile={this.state.isMobile}
-      />,
+
+
       <Banner5
         id="Banner5_0"
         key="Banner5_0"

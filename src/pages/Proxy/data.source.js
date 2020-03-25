@@ -46,7 +46,7 @@ export const Banner20DataSource = {
         title: {
           className: 'banner2-title',
           children:
-            'http://0.rc.xiniu.com/g1/M00/2A/BA/CgAGS1diRu-ACrV8AAC1_uu3lak294.gif',
+            '',
         },
         content: {
           className: 'banner2-content',
@@ -59,10 +59,10 @@ export const Banner20DataSource = {
           ),
         },
         button: {
-          className: 'banner2-button k849h2fg3lq-editor_css',
+          className: 'banner5-button k849h2fg3lq-editor_css',
           children: (
             <>
-              <b>立即咨询</b>
+              立刻加入！
             </>
           ),
         },
@@ -276,7 +276,7 @@ export const Content131DataSource = {
         children: (
           <>
             <p>
-              <b>个人加盟</b>
+              <b>兼职加盟</b>
             </p>
           </>
         ),
@@ -286,9 +286,12 @@ export const Content131DataSource = {
         name: 'content',
         children: (
           <>
-            <p>加盟<b>“0”门槛</b>，SanYeah提供全套服务打包。助你创业道路顺风顺水。</p>
+            <p>加盟<b>“0”</b>门槛，SanYeah提供全套服务打包。助你创业道路顺风顺水。</p>
+            <br/>
+            <b> <p>立刻咨询获取合作方式</p></b>
+            <br/>
             <p>资源免费用，并提供资金支持。</p>
-            <p>立刻咨询我们获取最新情报</p>
+
           </>
         ),
         className: 'title-content k847vba4wm7-editor_css',

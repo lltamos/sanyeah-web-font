@@ -38,6 +38,38 @@ export const Banner10DataSource = {
   BannerAnim: {
     children: [
       {
+        name: 'elem0',
+        BannerElement: { className: 'banner-user-elem' },
+        textWrapper: { className: 'banner1-text-wrapper' },
+        bg: { className: 'bg bg0 k84hib6a3bm-editor_css' },
+        title: {
+          className: 'banner1-title',
+          children:
+              'http://www.open.com.cn/Public/img/bkyh/e8bc1d71262e27c917828c9b4651dc6d.png',
+        },
+        content: {
+          className: 'banner1-content',
+          children: (
+              <>
+                <p>
+                  <br/>
+                  <b>
+                    加分 免考 抵考 学费你都了解么？
+                  </b>
+                </p>
+                <br/>
+                <p>
+                  <b>
+                    在职 在校生 没时间 基础差 资金少 一样能考好大学
+                  </b>
+                </p>
+
+              </>
+          ),
+        },
+        button: { className: 'banner5-button-wrapper ', children: '咨询报名' },
+      },
+      {
         name: 'elem2',
         BannerElement: { className: 'banner-user-elem' },
         textWrapper: { className: 'banner1-text-wrapper' },
@@ -53,33 +85,12 @@ export const Banner10DataSource = {
           ),
         },
         content: {
-          className: 'banner1-content',
-          children: '一个高效的页面动画解决方案',
+          className: 'banner1-content ',
+          children: '',
         },
-        button: { className: 'banner1-button', children: 'Learn More' },
+        button: { className: 'banner1-button show_null', children: '' },
       },
-      {
-        name: 'elem0',
-        BannerElement: { className: 'banner-user-elem' },
-        textWrapper: { className: 'banner1-text-wrapper' },
-        bg: { className: 'bg bg0 k84hib6a3bm-editor_css' },
-        title: {
-          className: 'banner1-title',
-          children:
-            'http://www.open.com.cn/Public/img/bkyh/e8bc1d71262e27c917828c9b4651dc6d.png',
-        },
-        content: {
-          className: 'banner1-content',
-          children: (
-            <>
-              <p>
-                <br />
-              </p>
-            </>
-          ),
-        },
-        button: { className: 'banner1-button', children: 'Learn More' },
-      },
+
     ],
   },
 };
@@ -112,8 +123,9 @@ export const Banner51DataSource = {
         className: 'banner5-content',
         children: (
           <>
-            <p>超过200专业个热门专业，全面选择让你拥有更多可能</p>
-            <p>超过10000学员在这里学习，成就更好自己</p>
+            <p>超过200专业个热门专业</p>
+            <p>超过10000学员在这里学习</p>
+            <p>全面选择让你拥有更多可能</p>
           </>
         ),
       },
@@ -160,11 +172,9 @@ export const Feature10DataSource = {
     className: 'content1-content',
     children: (
       <>
-        <p>学费性价比高，毕业可获取毕业证学位证</p>
-        <p>入学无压力，专业齐全。学校可选择性高，在线教学，随到随学。</p>
-        <p>
-          <br />
-        </p>
+        <p>学费性价比高，免考学位英语。毕业可获取毕业证学位证</p>
+        <p>学习方式灵活，只需一次线下笔试，其他均为网上在线考试。</p>
+        <p>入学无压力，<b>基本无门槛</b>，专业齐全，在线教学。</p>
       </>
     ),
   },
@@ -190,8 +200,11 @@ export const Feature20DataSource = {
     className: 'content2-content',
     children: (
       <>
-        <p>全国统一入学考试，学费最低1900一年。</p>
+        <p>存在全脱产 半脱产 函授三种形式。</p>
         <p>毕业可获取毕业证学位证。学信网终生可查。</p>
+        <p>全国统一入学考试，学费最低<b>1900</b>一年。</p>
+        <br/>
+        <p><b>其优势为学习形式多样 专业设置新颖 入学相对容易</b></p>
       </>
     ),
   },
@@ -220,6 +233,13 @@ export const Feature11DataSource = {
         <p>含金量高，毕业周期最短。无入学考试</p>
         <p>毕业可获取毕业证学位证</p>
         <p>进入外企有较大优势，支持转本套读。高起本最快2年毕业</p>
+        <b>
+          单科政策加分可达45分
+        </b>
+        <br/>
+        <b>
+          个别专业免考学科可超11科
+        </b>
       </>
     ),
   },
@@ -262,8 +282,10 @@ export const Banner50DataSource = {
               <span>学习费用低</span>
               <br />
             </p>
+            <br />
             <p>
-              <br />
+              <b>提供协议保障服务，考试不达标学费协议返还</b>
+
             </p>
           </>
         ),

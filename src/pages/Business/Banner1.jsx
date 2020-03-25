@@ -35,10 +35,10 @@ class Banner extends React.PureComponent {
                 title.children
               )}
             </div>
-            <div key="content" {...content}>
+            <div key="content" {...content} style={{marginTop:'12px'}}>
               {content.children}
             </div>
-            <Button ghost key="button" {...button}>
+            <Button ghost key="button" {...button} style={{fontWeight:"bold",marginTop:'12px'}}>
               {button.children}
             </Button>
           </QueueAnim>

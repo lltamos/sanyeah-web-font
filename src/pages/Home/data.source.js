@@ -52,7 +52,7 @@ export const Banner30DataSource = {
       {
         name: 'slogan',
         className: 'banner3-slogan k7ykm82eh1u-editor_css',
-        children: '2020送自己一个名校学历',
+        children: '2020送自己一个名校机会',
         texty: true,
       },
       {
@@ -60,16 +60,19 @@ export const Banner30DataSource = {
         className: 'banner3-name',
         children: (
           <>
-            <p>山东大学成人本科</p>
-            <p>985/211 重点大学&nbsp; 学信网可查</p>
-            <p>电子注册，唯一编码，学信网终身可查，含金量高</p>
+
+            <p><b>我们也可以上国家重点大学</b></p>
+            <br/>
+            <p><b>985/211山东大学</b></p>
+            <br/>
+            <p><b>免费获取报名考试短信提醒服务</b></p>
           </>
         ),
       },
       {
         name: 'button',
         className: 'banner3-button k7yiupcrd2-editor_css',
-        children: '立即报名',
+        children: '立即获取',
         type: 'primary',
         href: '',
         target: '_blank',
@@ -117,10 +120,15 @@ export const Banner50DataSource = {
         className: 'banner5-content',
         children: (
           <>
+
             <p>
+              修名校学历，不怕基础低！
+              <br/>
               免考课程、衔接课程、实践性环节考核课程享受大学生自学考试优惠政策。
               配套全流程教务助学服务，线上课堂等资源
             </p>
+
+
           </>
         ),
       },
@@ -162,7 +170,7 @@ export const Pricing00DataSource = {
         name: 'title',
         children: (
           <>
-            <p>学历的必要性</p>
+            <p><b>通过率保障 轻松入学</b></p>
           </>
         ),
         className: 'pricing0-title',
@@ -171,14 +179,12 @@ export const Pricing00DataSource = {
         name: 'content',
         children: (
           <>
-            <p>
-              <p>学历意味着机会，很浅显的道理</p>
+            <p >
+              <p><b>1对1专属教务助学服务 学习进度 学习效果实时监督 课程老师定时跟踪</b></p>
               <br/>
-              <p>学历证书是证明你文化知识层次的有效依据</p>
+              <p><b>低首付分期0压力入学，学习无压力。边上课边鸿骞为您提供。</b></p>
               <br/>
-              <p>学历是敲门砖。升职加薪甚至<b>相亲</b>都要求一定的学历。</p>
-            </p>
-            <p>
+              <p style={{fontSize:'16px'}}><b><b> 鸿骞机构历年培训后的考试通过率较高，2018年特别推出不过协议保障服务。考试达标学费协议返还。</b></b></p>
               <br />
             </p>
             <p>
@@ -197,18 +203,6 @@ export const Pricing00DataSource = {
         ),
         className: 'pricing0-pricing',
       },
-      // {
-      //   name: 'button',
-      //   children: {
-      //     href: '#',
-      //     type: 'primary',
-      //     children: (
-      //         <p>
-      //           <b>获取助学金</b>
-      //         </p>
-      //     ),
-      //   },
-      // },
     ],
   },
 };
@@ -224,7 +218,7 @@ export const Feature20DataSource = {
     className: 'content2-title',
     children: (
       <>
-        <p>通过率保障 轻松入学</p>
+        <p>定制化提升方案</p>
       </>
     ),
   },
@@ -232,12 +226,9 @@ export const Feature20DataSource = {
     className: 'content2-content',
     children: (
       <>
-        <p>0压力入学</p>
-        <p>低首付分期0压力入学，学习无压力。边上课边鸿骞为您提供。</p>
-        <p>协议保障，培训费用损失保障！</p>
-        <p>
-          鸿骞机构历年培训后的考试通过率较高，2018年特别推出不过协议保障服务。考试达标学费协议返还。
-        </p>
+        <p>根据实际情况，定制多套提升方案。</p>
+        <p>合理透明，。</p>
+        <p>名企承认、学信网可查，证书终身有效。</p>
       </>
     ),
   },
