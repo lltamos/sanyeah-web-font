@@ -29,6 +29,12 @@ export const Nav21DataSource = {
         children: '业务合作',
         className: 'menu-item',
       },
+      {
+        name: 'linkNav~k84a1o0czwj',
+        to: '/#/setup',
+        children: '报名登记',
+        className: 'menu-item',
+      },
     ],
   },
   mobileMenu: { className: 'header2-mobile-menu' },

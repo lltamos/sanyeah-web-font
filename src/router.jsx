@@ -1,6 +1,8 @@
 import Home from './pages/Home';
 import Proxy from './pages/Proxy';
 import Business from './pages/Business';
+import Setup from './pages/Setup';
+
 
 
 const routesConfig = [
@@ -23,6 +25,11 @@ const routesConfig = [
         path: '/business',
         exact: true,
         component: Business,
+    },
+    {
+        path: '/setup',
+        exact: true,
+        component: Setup,
     },
 ];
 

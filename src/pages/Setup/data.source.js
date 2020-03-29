@@ -35,172 +35,13 @@ export const Nav21DataSource = {
         children: '报名登记',
         className: 'menu-item',
       },
-    ],
+    ]
   },
   mobileMenu: { className: 'header2-mobile-menu' },
 };
-export const Banner20DataSource = {
-  wrapper: { className: 'banner2' },
-  BannerAnim: {
-    children: [
-      {
-        name: 'elem0',
-        BannerElement: { className: 'banner-user-elem' },
-        page: { className: 'home-page banner2-page' },
-        textWrapper: { className: 'banner2-text-wrapper' },
-        bg: { className: 'bg bg0 k848twy6f8c-editor_css' },
-        title: {
-          className: 'banner2-title',
-          children:
-            '',
-        },
-        content: {
-          className: 'banner2-content',
-          children: (
-            <>
-              <p>
-                <br />
-              </p>
-            </>
-          ),
-        },
-        button: {
-          className: 'banner5-button k849h2fg3lq-editor_css',
-          children: (
-            <>
-              立刻加入！
-            </>
-          ),
-        },
-      },
-    ],
-  },
-};
-export const Feature40DataSource = {
-  wrapper: { className: 'home-page-wrapper content6-wrapper' },
-  OverPack: { className: 'home-page content6' },
-  textWrapper: { className: 'content6-text', xs: 24, md: 10 },
-  titleWrapper: {
-    className: 'title-wrapper',
-    children: [
-      {
-        name: 'title',
-        children: (
-          <>
-            <p>
-              <b>SanYeah|鸿骞提供的支持</b>
-            </p>
-          </>
-        ),
-        className: 'title-h1',
-      },
-      {
-        name: 'content',
-        className: 'title-content',
-        children: (
-          <>
-            <p>
-              <b>给予鸿骞内部系统，我们的服务更有优势</b>
-            </p>
-          </>
-        ),
-      },
-    ],
-  },
-  img: {
-    children:
-      'https://brooksgroup.com/sites/default/files/consultative_selling-01.jpg',
-    className: 'content6-img',
-    xs: 24,
-    md: 14,
-  },
-  block: {
-    children: [
-      {
-        name: 'block0',
-        img: {
-          children:
-            'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png',
-          className: 'content6-icon',
-        },
-        title: {
-          className: 'content6-title',
-          children: (
-            <>
-              <p>市场</p>
-            </>
-          ),
-        },
-        content: {
-          className: 'content6-content',
-          children: (
-            <>
-              <p>针对不同合作伙伴，前期为其提供不同类型的策略</p>
-              <p>数据以及流程。</p>
-            </>
-          ),
-        },
-      },
-      {
-        name: 'block1',
-        img: {
-          className: 'content6-icon',
-          children:
-            'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png',
-        },
-        title: {
-          className: 'content6-title',
-          children: (
-            <>
-              <p>服务</p>
-            </>
-          ),
-        },
-        content: {
-          className: 'content6-content',
-          children: (
-            <>
-              <p>采用全流程托管或半流程托管方式，降低业务开展难度。</p>
-              <p>提供教务“1对1”式单独对接。支持不同类型合作方式，</p>
-              <p>并提供定制化支持服务。</p>
-            </>
-          ),
-        },
-      },
-      {
-        name: 'block2',
-        img: {
-          className: 'content6-icon',
-          children:
-            'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
-        },
-        title: {
-          className: 'content6-title',
-          children: (
-            <>
-              <p>技术</p>
-            </>
-          ),
-        },
-        content: {
-          className: 'content6-content',
-          children: (
-            <>
-              <p>提供软硬件支持服务，内部学习系统免费共享。可根据</p>
-              <p>
-                合作单位<span>实际情况，</span>
-                <b>免费提供建站等相关服务。</b>
-              </p>
-            </>
-          ),
-        },
-      },
-    ],
-  },
-};
 export const Banner50DataSource = {
-  wrapper: { className: 'home-page-wrapper banner5' },
-  page: { className: 'home-page banner5-page' },
+  wrapper: { className: 'home-page-wrapper banner5 k8cmqqja6z-editor_css' },
+  page: { className: 'home-page banner5-page k8cmqk3wp6-editor_css' },
   childWrapper: {
     className: 'banner5-title-wrapper',
     children: [
@@ -208,113 +49,42 @@ export const Banner50DataSource = {
         name: 'title',
         children: (
           <>
-            <p>机构项目合作</p>
+            <p>
+              <b>2020年(专/本)报名已经开始</b>
+            </p>
           </>
         ),
         className: 'banner5-title',
       },
       {
         name: 'explain',
-        className: 'banner5-explain',
+        className: 'banner5-explain k8cmrxyihn-editor_css',
         children: (
           <>
-            <p>政策加分 教务托管</p>
+            <p>
+              <b>
+                {' '}
+                学历教育老师会为您回电详细解答学历报考及相关任何问题，请放心接听
+              </b>
+            </p>
           </>
         ),
       },
       {
         name: 'content',
-        className: 'banner5-content',
+        className: 'banner5-content k8cmsau8flm-editor_css',
         children: (
           <>
-            <p>定期推送最新项目信息，提供24*365实时项目咨询服务</p>
-            <p>可提供全流程教务托管服务，放心省心安心。</p>
-            <p>全流程实时助学，价格极具优势</p>
-            <p>
-              <br />
-            </p>
             <p>
               <br />
             </p>
           </>
         ),
       },
-      {
-        name: 'button',
-        className: 'banner5-button-wrapper',
-        children: {
-          href: '#',
-          className: 'banner5-button',
-          type: 'primary',
-          children: (
-            <>
-              <p>
-                <b>现在咨询</b>
-              </p>
-            </>
-          ),
-        },
-      },
-    ],
-  },
-  image: {
-    className: 'banner5-image',
-    children:
-      'https://www.primeum.com/hubfs/Imported_Blog_Media/simuler-remuneration-variable-commercial.jpg',
-  },
-};
-export const Content131DataSource = {
-  OverPack: {
-    className: 'home-page-wrapper content13-wrapper',
-    playScale: 0.3,
-  },
-  titleWrapper: {
-    className: 'title-wrapper',
-    children: [
-      {
-        name: 'image',
-        children:
-          'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
-        className: 'title-image',
-      },
-      {
-        name: 'title',
-        children: (
-          <>
-            <p>
-              <b>兼职加盟</b>
-            </p>
-          </>
-        ),
-        className: 'title-h1',
-      },
-      {
-        name: 'content',
-        children: (
-          <>
-            <p>加盟<b>“0”</b>门槛，SanYeah提供全套服务打包。助你创业道路顺风顺水。</p>
-            <br/>
-            <b> <p>立刻咨询获取合作方式</p></b>
-            <br/>
-            <p>资源免费用，并提供资金支持。</p>
 
-          </>
-        ),
-        className: 'title-content k847vba4wm7-editor_css',
-      },
-      {
-        name: 'content2',
-        children: (
-          <>
-            <p>
-              <br />
-            </p>
-          </>
-        ),
-        className: 'title-content',
-      },
     ],
   },
+
 };
 export const Content130DataSource = {
   OverPack: {
@@ -388,7 +158,7 @@ export const Footer10DataSource = {
           children: [
             {
               name: 'content0',
-              children: 'Animation specification and component of Ant Design.',
+              children: 'Animation specification and components of Ant Design.',
             },
           ],
         },
