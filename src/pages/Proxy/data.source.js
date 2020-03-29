@@ -51,25 +51,18 @@ export const Banner20DataSource = {
         bg: { className: 'bg bg0 k848twy6f8c-editor_css' },
         title: {
           className: 'banner2-title',
-          children:
-            '',
+          children: '',
         },
         content: {
           className: 'banner2-content',
-          children: (
-            <>
-              <p>
-                <br />
-              </p>
-            </>
-          ),
+          children:''
         },
         button: {
-          className: 'banner5-button k849h2fg3lq-editor_css',
+          className: 'banner5-button  k849h2fg3lq-editor_css',
           children: (
-            <>
+            <a href='#/setup'>
               立刻加入！
-            </>
+            </a>
           ),
         },
       },
@@ -243,7 +236,7 @@ export const Banner50DataSource = {
         name: 'button',
         className: 'banner5-button-wrapper',
         children: {
-          href: '#',
+          href: '#/setup',
           className: 'banner5-button',
           type: 'primary',
           children: (

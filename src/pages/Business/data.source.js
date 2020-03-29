@@ -32,7 +32,7 @@ export const Nav21DataSource = {
       {
         name: 'linkNav~k84a1o0czwj',
         to: '/#/setup',
-        children: '报名登记',
+        children: '咨询报名',
         className: 'menu-item',
       },
     ],
@@ -73,7 +73,7 @@ export const Banner10DataSource = {
               </>
           ),
         },
-        button: { className: 'banner5-button-wrapper ', children: '咨询报名' },
+        button: { className: 'banner5-button-wrapper ', children: '咨询报名' ,href: '/#setup', },
       },
       {
         name: 'elem2',
@@ -94,7 +94,7 @@ export const Banner10DataSource = {
           className: 'banner1-content ',
           children: '',
         },
-        button: { className: 'banner1-button show_null', children: '' },
+        button: { className: 'banner1-button show_null', children: '',href: '/#setup' },
       },
 
     ],
@@ -139,7 +139,7 @@ export const Banner51DataSource = {
         name: 'button',
         className: 'banner5-button-wrapper',
         children: {
-          href: '#',
+          href: '#/setup',
           className: 'banner5-button',
           type: 'primary',
           children: (
@@ -300,7 +300,7 @@ export const Banner50DataSource = {
         name: 'button',
         className: 'banner5-button-wrapper',
         children: {
-          href: '#',
+          href: '#/setup',
           className: 'banner5-button',
           type: 'primary',
           children: (

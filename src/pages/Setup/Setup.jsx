@@ -48,7 +48,6 @@ class Setup extends React.Component {
                     <Form.Item
                         name="name"
                         label="姓名"
-
                         rules={[
                             {
                                 required: true,

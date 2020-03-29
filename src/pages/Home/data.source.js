@@ -32,7 +32,7 @@ export const Nav20DataSource = {
       {
         name: 'linkNav~k7yikz6smjl',
         to: '/#/setup',
-        children: '报名登记',
+        children: '咨询报名',
         className: 'menu-item',
       },
     ],
@@ -80,7 +80,7 @@ export const Banner30DataSource = {
         className: 'banner3-button k7yiupcrd2-editor_css',
         children: '立即获取',
         type: 'primary',
-        href: '',
+        href: '#/setup',
         target: '_blank',
       },
       {
@@ -142,11 +142,10 @@ export const Banner50DataSource = {
         name: 'button',
         className: 'banner5-button-wrapper',
         children: {
-          href: '#',
+          href: '#/setup',
           className: 'banner5-button',
           type: 'primary',
           children: <b>现在咨询</b>
-
         },
       },
     ],
@@ -232,9 +231,11 @@ export const Feature20DataSource = {
     className: 'content2-content',
     children: (
       <>
-        <p>根据实际情况，定制多套提升方案。</p>
-        <p>合理透明，。</p>
-        <p>名企承认、学信网可查，证书终身有效。</p>
+        <p>最快1.5年获取毕业证</p>
+        <p><b>可专本套路，高中到本科只需2年</b></p>
+        <br/>
+        <p>全程助教跟踪，报考不错过</p>
+        <p>学习方式轻松合理，保障学习无障碍</p>
       </>
     ),
   },
@@ -329,7 +330,7 @@ export const Feature00DataSource = {
                   <p>
                     <b>毕业时间长</b>
                   </p>
-                  <p>证书认可度低</p>
+                  <p>认可度相对较低</p>
                   <p>有入学考试</p>
                 </>
               ),
@@ -366,7 +367,7 @@ export const Feature00DataSource = {
                 <>
                   <p>毕业时间长</p>
                   <p>
-                    <span>证书认可度低</span>
+                    <span>认可度相对较低</span>
                     <br />
                   </p>
                   <p>有入学考试</p>
@@ -452,7 +453,7 @@ export const Feature10DataSource = {
     className: 'content1-title',
     children: (
       <>
-        <p>国家承认 学信网可查</p>
+        <p>国家承认 含金量高</p>
       </>
     ),
   },
@@ -460,9 +461,18 @@ export const Feature10DataSource = {
     className: 'content1-content',
     children: (
       <>
-        <p>
-          学信网，是"中国高等教育学生信息网"的简称，是教育部指定的、学历证书查询的唯一网站。所有国家承认的高等学历证书均可在该网站上查到。
-        </p>
+        <br/>
+        <span>
+          含金量高，社会企业认可。
+          <br/>
+          可以申请办理各种证书和职称以及考公务员，出国留学
+          <br/>
+          学信网，是"中国高等教育学生信息网"的简称
+          <br/>
+          是教育部指定的、学历证书查询的唯一网站。
+          <br/>
+          所有国家承认的高等学历证书均可在该网站上查到。
+          </span>
       </>
     ),
   },
