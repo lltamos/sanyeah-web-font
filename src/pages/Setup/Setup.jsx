@@ -4,14 +4,14 @@ import {Form, Input, Button, Radio} from 'antd';
 const layout = {
     labelCol: {
         span: 8,
-        align: 'center'
-
+        align: 'center',
     },
     wrapperCol: {
         span: 16,
     },
-};
 
+
+};
 
 class Setup extends React.Component {
 
@@ -43,7 +43,7 @@ class Setup extends React.Component {
 
         return (
             <center>
-                <Form style={{width: "480px", marginTop: '225px'}} {...layout} ref={this.formRef} name="control-ref"
+                <Form  className='layout_setup'  {...layout} ref={this.formRef} name="control-ref"
                       onFinish={this.onFinish}>
                     <Form.Item
                         name="name"

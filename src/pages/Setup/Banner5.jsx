@@ -19,8 +19,8 @@ class Banner5 extends React.PureComponent {
       },
     };
     return (
-      <div  {...tagProps} {...dataSource.wrapper}>
-        <div style={{display :"flex"}} {...dataSource.page}>
+      <div   {...tagProps} {...dataSource.wrapper}>
+        <div style={{display :"flex",}} {...dataSource.page}>
           <QueueAnim
             key="text"
             type={animType.queue}

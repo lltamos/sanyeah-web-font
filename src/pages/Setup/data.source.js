@@ -75,9 +75,6 @@ export const Banner50DataSource = {
         className: 'banner5-content k8cmsau8flm-editor_css',
         children: (
           <>
-            <p>
-              <br />
-            </p>
           </>
         ),
       },
